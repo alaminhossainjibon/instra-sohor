@@ -155,7 +155,7 @@ const displayReportedPosts = () => {
   const reportedPosts = getReportedPosts();
   posts.forEach((post) => {
     const div = createPost(post);
-    document.getElementById("reported").appendChild(div);
+    document.getElementById('reported').appendChild(div);
   });
 };
 
